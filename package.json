@@ -2,10 +2,10 @@
   "name": "first",
   "version": "1.0.0",
   "description": "first ap",
-  "main": "App.js",
+  "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node App.js"
+    "start": "node index.js"
   },
   "keywords": [
     "node"
