@@ -8,6 +8,13 @@ app.get('/', (req, res) => {
   res.send('Hello World!')
 })
 
+app.get('/home', (req, res) => {
+  const data={
+    "name":"piyush",
+    "age":20
+  }
+  res.send(data)
+})
 
 app.get('/about', (req, res) => {
   res.send('About')
